@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "expected_category": "mobile_app",
+    "expected_tier": "Hot",
+    "text": "Hi, I'm Rohit Mehra from StyleHub Retail Pvt Ltd, Delhi. We run a clothing store and want a mobile app where customers can browse the catalog, add to cart, pay online and track their order. We'd like it live in 2 months. Budget around 4 lakh. Email: rohit@stylehub.in"
+  },
+  {
+    "id": 2,
+    "expected_category": "ai_automation",
+    "expected_tier": "Hot",
+    "text": "Hello, this is Dr. Anita Sharma, owner of CareFirst Clinic Pvt Ltd in Jaipur. We want a WhatsApp chatbot that automates appointment booking, sends reminders and answers patient FAQs. Need it in 6 weeks, budget 1.5 lakh. Call me on +91 98290 11223."
+  },
+  {
+    "id": 3,
+    "expected_category": "web_development",
+    "expected_tier": "Cold",
+    "text": "need website"
+  },
+  {
+    "id": 4,
+    "expected_category": "saas_platform",
+    "expected_tier": "Hot",
+    "text": "We are TalentNest Technologies Pvt Ltd, a Bangalore startup. We want to build an HR SaaS platform with login, admin panel, dashboard, payroll invoice generation, analytics reports and API integration with Slack. Timeline 5 months, budget 12 lakh. Contact: founder@talentnest.io"
+  },
+  {
+    "id": 5,
+    "expected_category": "seo_marketing",
+    "expected_tier": "Warm",
+    "text": "Our e-commerce brand sells handmade furniture. We want technical SEO and help to improve organic traffic on Google. Budget is 25k per month. Please reply on priya@woodcraft.in"
+  },
+  {
+    "id": 6,
+    "expected_category": "mobile_app",
+    "expected_tier": "Cold",
+    "text": "I want you to build a Facebook clone app with chat, notification, payment, login in 3 days. Budget Rs 5000."
+  },
+  {
+    "id": 7,
+    "expected_category": "other",
+    "expected_tier": "Disqualified",
+    "text": "Hi, I am a final year B.Tech student looking for an internship opportunity. My resume is attached. Please consider me for any open role."
+  },
+  {
+    "id": 8,
+    "expected_category": "other",
+    "expected_tier": "Disqualified",
+    "text": "Limited time offer! We offer guaranteed rank on Google page 1 and cheap backlinks for $50. Reply now to buy backlinks."
+  },
+  {
+    "id": 9,
+    "expected_category": "crm_automation",
+    "expected_tier": "Hot",
+    "text": "I'm Vikram Joshi from SwiftMove Logistics Pvt Ltd. We want to automate our sales workflow using Zoho CRM with invoice generation, dashboard, notification to drivers and report exports. Timeline 8 weeks, budget 3 lakh. vikram@swiftmove.in"
+  },
+  {
+    "id": 10,
+    "expected_category": "cloud_devops",
+    "expected_tier": "Warm",
+    "text": "We are a fintech startup, FinPay Pvt Ltd, and want to migrate our servers to AWS with docker and CI/CD pipelines in about 3 months. We haven't decided the budget yet. Contact ops@finpay.in"
+  },
+  {
+    "id": 11,
+    "expected_category": "web_development",
+    "expected_tier": "Hot",
+    "text": "Hello, I run a small yoga studio in Jaipur and need a website with online booking and a payment option. Budget is flexible, maybe around 80k. Call 9414012345."
+  }
+]
