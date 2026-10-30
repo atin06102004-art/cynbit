@@ -1,11 +1,17 @@
 """Streamlit demo: Cynbit AI Lead Qualification & Proposal Drafter."""
 import json
+from pathlib import Path
+
 import streamlit as st
 
 from leadengine import CATEGORIES, PRICING, analyze, detect_provider, fmt_inr
 
 st.set_page_config(page_title="Cynbit Lead Copilot", page_icon="🎯", layout="wide")
-samples = json.load(open("sample_inquiries.json", encoding="utf-8"))
+# Resolve relative to this file so it works from any folder; never crash if missing.
+try:
+    samples = json.loads((Path(__file__).parent / "sample_inquiries.json").read_text(encoding="utf-8"))
+except Exception:
+    samples = [{"id": 1, "text": "Hi, I'm Rohit Mehra from StyleHub Retail Pvt Ltd. We want a mobile app where customers can browse the catalog, add to cart, pay online and track their order. Live in 2 months, budget around 4 lakh. Email: rohit@stylehub.in"}]
 
 st.title("🎯 Cynbit Lead Copilot")
 st.caption("Paste a client inquiry → get a classification, lead score, extracted requirements, "
